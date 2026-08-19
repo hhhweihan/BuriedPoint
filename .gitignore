@@ -1,0 +1,21 @@
+# build
+build/
+cmake-build-*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# 运行时产物
+buried/
+*.log
+
+# 测试证书（含私钥，严禁提交）
+server/*.pem
+
+# 本地测试残留
+/tmp/

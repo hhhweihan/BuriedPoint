@@ -1,0 +1,11 @@
+# 统一 LF 行尾（跨平台）
+* text=auto eol=lf
+
+# 二进制文件
+*.png binary
+*.jpg binary
+*.pem binary
+
+# 语言统计标注（GitHub）
+*.cc linguist-language=C++
+*.h linguist-language=C++
